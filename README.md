@@ -7,9 +7,38 @@ The goal is to classify news articles as **Fake** or **Real** based on their tex
 
 ---
 
-## Objectives  
-- Secondary dataset from Kaggle
-- Preprocess news article text data (cleaning, tokenization, stopword removal)  
-- Extract features using **TF-IDF** vectorization  
-- Train and evaluate using **logistic regression** models
-- Build a reliable system for fake news classification  
+
+## 📂 Dataset  
+- Secondary dataset sourced from **Kaggle Fake News Dataset**  
+- Contains **news articles with title, text, subject, and label**  
+
+---
+
+## 🛠️ Methodology  
+- **Text Preprocessing:** Tokenization, stopword removal, stemming, lemmatization  
+- **Feature Extraction:** Applied **TF-IDF Vectorization** to transform text into numerical features  
+- **Model Training:** Used **Logistic Regression** as the baseline classifier  
+- **Evaluation:** Measured performance using **Accuracy, Precision, Recall, F1-score, Confusion Matrix**  
+
+---
+
+## 📁 Project Structure 
+- `Fake_news_detection(1).ipynb` → Python file
+- `Fake News Detection.pptx` → Presentation
+
+---
+
+## 🏷️ Skills & Tags  
+
+`Python` `Machine Learning` `NLP` `Text Classification`  
+`TF-IDF` `Logistic Regression` `Scikit-learn` 
+
+---
+
+## ▶️ How to Run  
+
+1. Clone the repository:
+   ```bash
+   git clone https://https://github.com/vidyaspillai/Fake-News-Detection.git
+   cd Fake-News-Detection
+
